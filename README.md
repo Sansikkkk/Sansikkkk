@@ -114,10 +114,6 @@
 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/WJTdev)
 
-<br>
-
-<img src="https://lanyard.cnrad.dev/api/787393015593173012?theme=dark&bg=1a1a1a&borderRadius=12px" alt="Discord Presence" />
-
 </div>
 
 <div align="center">
