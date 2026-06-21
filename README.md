@@ -116,7 +116,7 @@
 
 <br>
 
-<img src="https://lanyard-profile-readme.vercel.app/api/787393015593173012?theme=dark&bg=1a1a1a&borderRadius=12px" alt="Discord Presence" />
+<img src="https://lanyard.cnrad.dev/api/787393015593173012?theme=dark&bg=1a1a1a&borderRadius=12px" alt="Discord Presence" />
 
 </div>
 
