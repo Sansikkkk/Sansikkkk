@@ -56,15 +56,42 @@
 
 ---
 
-### 📌 Закреплённые проекты
+### 📌 Проекты
+
+**🌐 Сайты**
 
 <div align="center">
 
 [![FlorarieCarpineni](https://github-readme-stats.vercel.app/api/pin/?username=Dany0443&repo=FlorarieCarpineni&theme=radical)](https://github.com/Dany0443/FlorarieCarpineni)
-[![debian_cs2server](https://github-readme-stats.vercel.app/api/pin/?username=Sansikkkk&repo=debian_cs2server&theme=radical)](https://github.com/Sansikkkk/debian_cs2server)
 [![debian_send](https://github-readme-stats.vercel.app/api/pin/?username=Sansikkkk&repo=debian_send&theme=radical)](https://github.com/Sansikkkk/debian_send)
 
 </div>
+
+`debian_send` — сайт для временной отправки/обмена файлами.
+
+**🛠️ Утилиты**
+
+<div align="center">
+
+[![PasswordGen](https://github-readme-stats.vercel.app/api/pin/?username=Sansikkkk&repo=PasswordGen&theme=radical)](https://github.com/Sansikkkk/PasswordGen)
+[![debian_cs2server](https://github-readme-stats.vercel.app/api/pin/?username=Sansikkkk&repo=debian_cs2server&theme=radical)](https://github.com/Sansikkkk/debian_cs2server)
+
+</div>
+
+`PasswordGen` — генератор паролей.
+
+**📱 Мобильные приложения**
+
+<div align="center">
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+
+[![CheckQuest](https://github-readme-stats.vercel.app/api/pin/?username=Sansikkkk&repo=checkquest&theme=radical)](https://github.com/Sansikkkk/checkquest)
+
+</div>
+
+`CheckQuest` — мобильное приложение на Dart + Flutter (сканирование/распознавание чеков через камеру, OCR, статистика покупок).
 
 ---
 
@@ -85,8 +112,11 @@
 
 <div align="center">
 
-![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
-![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/WJTdev)
+
+<br>
+
+<img src="https://lanyard-profile-readme.vercel.app/api/787393015593173012?theme=dark&bg=1a1a1a&borderRadius=12px" alt="Discord Presence" />
 
 </div>
 
