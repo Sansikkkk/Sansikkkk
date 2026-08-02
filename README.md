@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Привет, я Alexandru (Sansikkkk)
+# 👋 Привет, я Alexandru (Sansik)
 
 ### 🖥️ Linux Enthusiast · 🌐 Web & Game Hosting · 🎮 CS2/CS:GO Tools
 
