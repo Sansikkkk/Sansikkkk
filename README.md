@@ -38,8 +38,6 @@
 - 💾 **Off-site Backups** — автоматические резервные копии
 - 🛡️ **Resource Isolation** — CPU / RAM / storage limits
 - 👨‍💻 **Admin Panel** — управление пользователями и инстансами
-- 💳 **Billing & Lifecycle** — автоматическое управление подписками и серверами
-- 🔄 **Multi-node Infrastructure** — масштабирование между VPS
 
 ### 🏗️ Архитектура
 
