@@ -2,15 +2,89 @@
 
 # 👋 Привет, я Alexandru (Sansik)
 
-### 🖥️ Linux Enthusiast · 🌐 Web & Game Hosting · 🎮 CS2/CS:GO Tools
+### ☁️ Cloud Infrastructure · 🐧 Linux · 🌐 Web & Game Hosting · 🛠️ DevOps
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Debian+%26+Linux+Server+Admin;Nginx+%2F+Pterodactyl+%2F+Beszel;Web+%26+Game+Hosting+Builder;CS2+%2F+CS%3AGO+Tools+Developer" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=700&lines=Building+PulsarX+Cloud;Linux+%26+Server+Administration;Cloud+Infrastructure+%26+DevOps;Web+%26+Game+Hosting;CS2+%2F+CS%3AGO+Tools+Developer" alt="Typing SVG" />
 
 </div>
 
 ---
 
-### 🧰 Стек и инструменты
+# ☁️ PulsarX Cloud
+
+<div align="center">
+
+### **Self-Service Cloud Platform for Linux mini-VPS**
+
+**Provision → Deploy → Manage → Monitor**
+
+[![Website](https://img.shields.io/badge/Website-pulsarx.cloud-A855F7?style=for-the-badge&logo=cloudflare&logoColor=white)](https://pulsarx.cloud)
+
+</div>
+
+**PulsarX Cloud** — собственная облачная платформа для аренды изолированных Linux mini-VPS.
+
+Пользователь регистрируется, выбирает конфигурацию и операционную систему, после чего платформа автоматически создаёт готовый сервер на инфраструктуре PulsarX.
+
+### ⚡ Возможности
+
+- 🚀 **Self-Service Provisioning** — сервер создаётся автоматически
+- 🐧 **Linux Instances** — Debian / Ubuntu
+- 📦 **Incus Containers** — изолированные Linux-инстансы
+- 📊 **Live Monitoring** — CPU / RAM / Disk / Network
+- 🌐 **Web Hosting** — домены и reverse proxy
+- 🔐 **Security** — firewall, rate limiting, Fail2Ban, SSH hardening
+- 📧 **Email Automation** — verification, credentials, password reset
+- 💾 **Off-site Backups** — автоматические резервные копии
+- 🛡️ **Resource Isolation** — CPU / RAM / storage limits
+- 👨‍💻 **Admin Panel** — управление пользователями и инстансами
+- 💳 **Billing & Lifecycle** — автоматическое управление подписками и серверами
+- 🔄 **Multi-node Infrastructure** — масштабирование между VPS
+
+### 🏗️ Архитектура
+
+```text
+                    ┌─────────────────┐
+                    │      User       │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │  pulsarx.cloud  │
+                    │      Nginx      │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │    FastAPI      │
+                    │     Backend     │
+                    └──────┬───┬──────┘
+                           │   │
+                 ┌─────────┘   └─────────┐
+                 ▼                       ▼
+        ┌─────────────────┐     ┌─────────────────┐
+        │   PostgreSQL    │     │      Incus      │
+        │     Database    │     │    Instances    │
+        └─────────────────┘     └────────┬────────┘
+                                         │
+                              ┌──────────┼──────────┐
+                              ▼          ▼          ▼
+                           Server 1   Server 2   Server 3
+```
+
+### 🛠️ PulsarX Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Incus](https://img.shields.io/badge/Incus-333333?style=for-the-badge&logo=linuxcontainers&logoColor=white)
+![Nginx](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+
+---
+
+# 🧰 Стек и инструменты
 
 <div align="center">
 
@@ -23,64 +97,84 @@
 ![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
 ![Nginx](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Incus](https://img.shields.io/badge/Incus-333333?style=for-the-badge&logo=linuxcontainers&logoColor=white)
 ![Pterodactyl](https://img.shields.io/badge/Pterodactyl-04032D?style=for-the-badge&logo=pterodactyl&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
-### 🎮 Игровой и веб-хостинг
+---
 
-<table align="center">
-<tr>
-<td valign="top" width="50%">
+# 🖥️ Infrastructure & Hosting
 
-**🌐 Web Hosting**
-- Настройка VPS/выделенных серверов на Debian
-- Reverse proxy и балансировка через Nginx
-- SSL (Let's Encrypt), безопасность, firewall
-- Мониторинг серверов через **Beszel**
+### 🐧 Linux & DevOps
 
-</td>
-<td valign="top" width="50%">
+- Administration of Debian/Linux servers
+- VPS deployment and configuration
+- Nginx reverse proxy
+- HTTPS / Let's Encrypt
+- SSH hardening
+- UFW / nftables
+- Fail2Ban
+- systemd
+- Bash automation
+- Server monitoring
+- Automated backups
+- Infrastructure security
 
-**🎮 Game Hosting**
-- Развёртывание панели **Pterodactyl**
-- Хостинг серверов **CS2 / CS:GO**
-- Wings, Daemon, автоматизация эггов
-- Оптимизация tickrate и производительности
+### 🌐 Web Hosting
 
-</td>
-</tr>
-</table>
+- VPS-based hosting
+- Reverse proxy architecture
+- Domain routing
+- SSL certificates
+- Isolated application environments
+- Self-service deployment systems
+
+### 🎮 Game Hosting
+
+- Pterodactyl deployment
+- Wings / Daemon configuration
+- CS2 / CS:GO server hosting
+- Server automation
+- Performance optimization
 
 ---
 
-### 📌 Проекты
+# 📌 Другие проекты
 
-**🌐 Сайты**
+## 🌐 Web
 
 <div align="center">
 
 [![FlorarieCarpineni](https://github-readme-stats.vercel.app/api/pin/?username=Dany0443&repo=FlorarieCarpineni&theme=radical)](https://github.com/Dany0443/FlorarieCarpineni)
+
 [![debian_send](https://github-readme-stats.vercel.app/api/pin/?username=Sansikkkk&repo=debian_send&theme=radical)](https://github.com/Sansikkkk/debian_send)
 
 </div>
 
-`debian_send` — сайт для временной отправки/обмена файлами.
+**`debian_send`** — сайт для временной отправки и обмена файлами.
 
-**🛠️ Утилиты**
+---
+
+## 🛠️ Utilities
 
 <div align="center">
 
 [![PasswordGen](https://github-readme-stats.vercel.app/api/pin/?username=Sansikkkk&repo=PasswordGen&theme=radical)](https://github.com/Sansikkkk/PasswordGen)
+
 [![debian_cs2server](https://github-readme-stats.vercel.app/api/pin/?username=Sansikkkk&repo=debian_cs2server&theme=radical)](https://github.com/Sansikkkk/debian_cs2server)
 
 </div>
 
-`PasswordGen` — генератор паролей.
+**`PasswordGen`** — генератор безопасных паролей.
 
-**📱 Мобильные приложения**
+**`debian_cs2server`** — инструменты для развёртывания CS2-серверов на Debian.
+
+---
+
+## 📱 Mobile
 
 <div align="center">
 
@@ -91,15 +185,16 @@
 
 </div>
 
-`CheckQuest` — мобильное приложение на Dart + Flutter (сканирование/распознавание чеков через камеру, OCR, статистика покупок).
+**`CheckQuest`** — мобильное приложение на Dart + Flutter для сканирования чеков, OCR и анализа покупок.
 
 ---
 
-### 📊 GitHub статистика
+# 📊 GitHub статистика
 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=Sansikkkk&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" width="48%" />
+
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sansikkkk&layout=compact&theme=radical&hide_border=true" width="38%" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sansikkkk&theme=radical&hide_border=true" width="60%" />
@@ -108,11 +203,13 @@
 
 ---
 
-### 📫 Связь со мной
+# 📫 Связь со мной
 
 <div align="center">
 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/WJTdev)
+
+[![PulsarX Cloud](https://img.shields.io/badge/PulsarX_Cloud-pulsarx.cloud-A855F7?style=for-the-badge&logo=cloudflare&logoColor=white)](https://pulsarx.cloud)
 
 </div>
 
