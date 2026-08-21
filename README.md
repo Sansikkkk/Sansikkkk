@@ -148,7 +148,7 @@
 
 [![FlorarieCarpineni](https://github-readme-stats.vercel.app/api/pin/?username=Dany0443&repo=FlorarieCarpineni&theme=radical)](https://github.com/Dany0443/FlorarieCarpineni)
 
-[![debian_send](https://github-readme-stats.vercel.app/api/pin/?username=Sansikkkk&repo=debian_send&theme=radical)](https://github.com/Sansikkkk/debian_send)
+[![debian_send](https://github-readme-stats.vercel.app/api/pin/?username=Sans1kqk&repo=debian_send&theme=radical)](https://github.com/sans1kq/debian_send)
 
 </div>
 
@@ -160,9 +160,9 @@
 
 <div align="center">
 
-[![PasswordGen](https://github-readme-stats.vercel.app/api/pin/?username=Sansikkkk&repo=PasswordGen&theme=radical)](https://github.com/Sansikkkk/PasswordGen)
+[![PasswordGen](https://github-readme-stats.vercel.app/api/pin/?username=sans1kq&repo=PasswordGen&theme=radical)](https://github.com/sans1kq/PasswordGen)
 
-[![debian_cs2server](https://github-readme-stats.vercel.app/api/pin/?username=Sansikkkk&repo=debian_cs2server&theme=radical)](https://github.com/Sansikkkk/debian_cs2server)
+[![debian_cs2server](https://github-readme-stats.vercel.app/api/pin/?username=sans1kq&repo=debian_cs2server&theme=radical)](https://github.com/sans1kq/debian_cs2server)
 
 </div>
 
@@ -179,7 +179,7 @@
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
-[![CheckQuest](https://github-readme-stats.vercel.app/api/pin/?username=Sansikkkk&repo=checkquest&theme=radical)](https://github.com/Sansikkkk/checkquest)
+[![CheckQuest](https://github-readme-stats.vercel.app/api/pin/?username=sans1kq&repo=checkquest&theme=radical)](https://github.com/sans1kq/checkquest)
 
 </div>
 
@@ -191,11 +191,11 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Sansikkkk&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=sans1kq&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" width="48%" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sansikkkk&layout=compact&theme=radical&hide_border=true" width="38%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sans1kq&layout=compact&theme=radical&hide_border=true" width="38%" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Sansikkkk&theme=radical&hide_border=true" width="60%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=sans1kq&theme=radical&hide_border=true" width="60%" />
 
 </div>
 
